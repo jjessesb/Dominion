@@ -1,0 +1,233 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  color: MIDNIGHTBLUE
+
+  ;
+}
+
+h1 {
+  color: MIDNIGHTBLUE;
+  display: inline;
+  font-size: 77px;
+  text-shadow: 2px 0 0 lightgray, -2px 0 0 lightgray, 0 2px 0 lightgray, 0 -2px 0 lightgray, 1px 1px lightgray, -1px -1px 0 lightgray, 1px -1px 0 lightgray, -1px 1px 0 lightgray;
+}
+
+h2 {
+  color: MIDNIGHTBLUE;
+  font-size: 34px;
+  text-shadow: 2px 0 0 lightgray, -2px 0 0 lightgray, 0 2px 0 lightgray, 0 -2px 0 lightgray, 1px 1px lightgray, -1px -1px 0 lightgray, 1px -1px 0 lightgray, -1px 1px 0 lightgray;
+}
+
+#pageTitle{
+  text-align: center;
+}
+
+#main{
+  text-align: center;
+}
+
+.roleButton{
+  margin-left: 100px;
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 21px;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 11%;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.button { 
+  cursor: pointer;
+}
+
+#clicky {
+  cursor: pointer;
+}
+
+figure{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.centered{
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: lightgray;
+  font-size: 40px;
+  text-shadow: 4px 4px midnightblue;
+}
+
+.mapButton {
+  padding: 0px;
+  width: 250px; 
+  border-radius: 11%;
+}
+
+#heroList{
+  width: 100px;
+}
+
+.resultButton {
+  cursor: pointer;
+  background-color: cadetblue;
+  display: inline-block;
+  margin-left: 100px;
+  font-size: 28px;
+  margin-bottom: 21px;
+  margin: 20px;
+  text-align: center;
+  width: 100px;
+  border-radius: 15px;
+}
+
+.herosListed {
+  display: inline-block;
+}
+
+.heroes{
+  color:cadetblue;
+  cursor: pointer;
+}
+
+#kothHeroList{
+  visibility: visible;
+}
+
+#initial{
+  border-radius: 20px;
+}
+
+#generate{
+  width: 250px;
+  text-align: center;
+  color: tomato;
+  background-color: midnightblue;
+  border-radius: 36px;
+  margin: 20px auto;
+  font-size: 29px;
+
+}
+
+.domCard{
+  border-radius: 15px;
+  margin: 0;
+  display: inline-block;
+  width: auto;
+  height: auto;
+
+}
+
+#cards figure{
+  margin: 1%;
+  width:15.5%;
+}
+
+#cards figure img{
+}
+
+#extras figure{
+  margin: 1%;
+  width:25%
+}
+
+#extras figure img{
+}
+
+#setupHeading{
+  text-decoration: underline;
+  font-size: 29px;
+  margin: 0;
+}
+
+#setup {
+  width:275px;
+  margin: auto;
+  background-color: midnightblue;
+  border-radius: 98px;
+}
+
+#setup li {
+  color:cadetblue;
+}
+
+.centeredDom{
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: midnightblue;
+  font-size: 25px;
+  text-shadow: 2px 0 0 lightgray, -2px 0 0 lightgray, 0 2px 0 lightgray, 0 -2px 0 lightgray, 1px 1px lightgray, -1px -1px 0 lightgray, 1px -1px 0 lightgray, -1px 1px 0 lightgray;
+}
+
+.unused{
+  text-shadow: -1px 0 lightgray, 0 1px lightgray, 1px 0 lightgray, 0 -1px lightgray;
+
+}
+
+table{
+
+}
+
+table tr th {
+  font-weight:bold;
+  text-decoration: underline;
+  border-bottom: 1px solid midnightblue;
+}
+
+table tr th:first-child { 
+  text-align:left; 
+}
+
+table tr td{
+color:tomato;
+border-bottom: 1px solid midnightblue;
+text-shadow: 1px 0 0 midnightblue, -1px 0 0 midnightblue, 0 1px 0 midnightblue, 0 -1px 0 midnightblue, 0.5px 0.5px midnightblue, -0.5px -0.5px 0 midnightblue, 0.5px -0.5px 0 midnightblue, -0.5px 0.5px 0 midnightblue;
+}
+
+table tr td:first-child { 
+  text-align:left; 
+}
+
+body {
+
+}
+
+#selector{
+  float:left;
+  width:65%;
+}
+
+#tableOfHeroes {
+  float:left;
+  width:320px;
+  border:solid 2px lightgray;
+  background-color:rgba(95, 158, 160, 0.9);
+  border-radius:2%;
+}
+
+#top{
+  display:block;
+}
+
+#submit{
+clear:both
+}
